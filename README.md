@@ -23,6 +23,13 @@ This Python script is tailored for building a corpus from textbook data, specifi
 - Script Execution: Run the script to process the CSV file and output the corpus in the specified directory.
 - Output Verification: The script generates text files for each entry and two YAML files (text_meta.yaml and time.yaml) containing metadata.
 
+## Functions
+- get_semester(grade: str): Converts grade to semester format for HGCT.
+- filter_lesson(lesson: str): Filters and maps lesson information for HGCT compatibility.
+- build_time_meta(semester: str, year: str, grade: str, time_meta: dict): Constructs time-related metadata for HGCT.
+- build_subcorpus(filename: str, content: str): Creates a subcorpus text file formatted for HGCT.
+- build_corpus(csv_file: str, corpus_folder: str, encoding: str = "utf-8"): Main function to build the corpus from the CSV file for HGCT.
+
 ## Error Handling
 - The script includes checks for the existence of the CSV file and raises an exception if it is not found.
 
