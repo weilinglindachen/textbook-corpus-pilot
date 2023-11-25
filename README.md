@@ -1,7 +1,7 @@
 # Textbook Corpus Builder (HGCT Format)
 
 ## Overview
-This Python script is tailored for building a corpus from textbook data, specifically formatted to be compatible with the HGCT (Historical Grade Chinese Textbooks) Query Tool. It processes textbook data from a CSV file, organizes it into a structured format, and saves it in a directory, ensuring compatibility with the HGCT tool.
+This Python script is tailored for building a corpus from textbook data, specifically formatted to be compatible with the HGCT (Hanzi Glyph Corpus toolkit) Query Tool. It processes textbook data from a CSV file, organizes it into a structured format, and saves it in a directory, ensuring compatibility with the HGCT tool.
 
 ## Features
 - Semester Identification: Converts grade information into semester format, aligning with HGCT requirements.
